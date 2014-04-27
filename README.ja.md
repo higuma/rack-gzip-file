@@ -32,6 +32,6 @@ run lambda {|env|}
 
 ## ライセンス
 
-MIT (See [LICENCE.txt](LICENCE.txt))
+MIT (See [LICENSE.txt](LICENSE.txt))
 
 

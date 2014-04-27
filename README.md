@@ -30,7 +30,7 @@ use Rack::Static, :urls => {"/" => 'index.html'}, :root => 'public'
 run lambda {|env|}
 ```
 
-## Licence
+## License
 
-MIT (See [LICENCE.txt](LICENCE.txt))
+MIT (See [LICENSE.txt](LICENSE.txt))
 
