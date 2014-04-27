@@ -26,7 +26,7 @@ run Rack::GzipFile.new('public')
 
 ```
 require 'rack/gzip_static
-use Rack::Static, :urls => {"/" => 'index.html'}, :root => 'public'
+use Rack::GzipStatic, urls: [''], root: 'public', index: 'index.html'
 run lambda {|env|}
 ```
 
